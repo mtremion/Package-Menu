@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8023112098104515752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8023112098104515766}
+  - component: {fileID: 8023112098104515767}
+  m_Layer: 0
+  m_Name: LanguageMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8023112098104515766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023112098104515752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.072052, y: -2.2077494, z: 66.16829}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8023112098104515767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023112098104515752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8889f64e5bb6b4ebaeefa7cc9ab52d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  english:
+    canvasManager:
+      titleCanvasManager: Name of the game
+      txtBtnCredit: Credit
+      txtCreditPopUpCredit: "Music background :\r\n\r\nTitre:   Lovely Swindler\r\nAuteur:
+        Amari\xE0\r\nSource: https://www.youtube.com/channel/UCjpsqeJxRUqIBSl0tVSlCog\r\nLicence:
+        https://creativecommons.org/licenses/by/3.0/deed.fr\r\nT\xE9l\xE9chargement
+        (4MB): https://auboutdufil.com/?id=545\r\n\r\nSound button :\r\n\r\nhttp://soundbible.com/1702-Button-Press-2.html\r\nTitle:
+        Button Press 2\r\nUploaded: 01.21.11\r\nLicense: Attribution 3.0\r\nRecorded
+        by Marianne Gagnon\r\n\r\nSwitch sound :\r\n\r\nhttp://soundbible.com/761-Switch.html\r\nTitle:
+        Switch\r\nUploaded: 07.20.09\r\nLicense: Attribution 3.0\r\nRecorded by Mike
+        Koenig"
+      txtBtnClosePopUpCredit: Close
+      txtBtnQuit: Quit
+      txtPopUpQuit: Do you want to quit the application ?
+      txtBtnYesPopUpQuit: Yes
+      txtBtnNoPopUpQuit: No
+    canvasSignIn:
+      txtTitleCanvasSignIn: Sign In
+      txtPHInputPseudoCanvasSignIn: Pseudo ...
+      txtPHInputPasswordCanvasSignIn: Password ...
+      txtForgotPasswordCanvasSignIn: Forgot your password ?
+      txtNewAccountCanvasSignIn: Need an account ?
+      txtConnectionCanvasSignIn: Connection
+    canvasSignOn:
+      txtTitleCanvasSignOn: Sign On
+      txtPHInputPseudoCanvasSignOn: Pseudo ...
+      txtPHInputPasswordCanvasSignOn: Password ...
+      txtPHInputEmailCanvasSignOn: Email ...
+      txtPHInputFirstNameCanvasSignOn: First name ...
+      txtPHInputLastNameCanvasSignOn: Last name ...
+      txtBtnRegisterCanvasSignOn: Register
+      txtBtnBackCanvasSignOn: Back
+      txtPopUpRegisterCanvasSignOn: Your account was created successfully !
+      txtBtnPopUpRegisterCanvasSignOn: Sign In
+    canvasForgotPassword:
+      txtTitleCanvasForgotPassword: 'Please, enter your email. You will receive a
+        verification code.
+
+        Enter it to change your password.'
+      txtPHInputEmailCanvasForgotPassword: Email ...
+      txtBtnSendEmailForgotPassword: Send
+      txtBtnBackCanvasForgotPassword: Back
+      txtTitlePopUpVerificationCanvasForgotPassword: Please enter your code.
+      txtPHInputCodePopUpVerificationCanvasForgotPassword: Code ...
+      txtBtnVerifyPopUpVerificationForgotPassword: Verify
+      txtBtnBackPopUpVerificationCanvasForgotPassword: Back
+      txtTitlePopUpChangePasswordCanvasForgotPassword: Enter your new password.
+      txtPHInputNewPasswordPopUpChangePasswordCanvasForgotPassword: New password ...
+      txtPHInputConfirmPasswordPopUpChangePasswordCanvasForgotPassword: Confirm password
+        ...
+      txtBtnConfirmPopUpChangePasswordForgotPassword: Change
+      txtBtnCancelPopUpChangePasswordCanvasForgotPassword: Cancel
+      txtTitlePopUpPasswordChangeCanvasForgotPassword: Your password has been change.
+        You can now Sign In.
+      txtBtnSignInPopUpPasswordChangeCanvasForgotPassword: Sign In
+    message:
+      baseMessage: 
+      cantBeEmpty: Can't be empty.
+      needAtLeast: Need at least
+      needMax: Need max
+      characters: characters.
+      pseudoAlreadyUse: Pseudo is already use.
+      emailAlreadyUse: Email is already use.
+      invalidEmail: Invalid email.
+      incorrectPseudoOrPassword: Incorrect Pseudo or Password.
+      emailDoesNotExist: Email doesn't exist.
+      wrongCode: Wrong code.
+      confirmPasswordDifferent: Confirm password is different.
+      newPasswordSameThanOld: New password is the same as old password
+      emailCodeVerificationObjectPasswordForgot: 'Forgot your password ? '
+      emailCodeVerificationBodyPasswordForgot: 'Your code is : '
+      pseudoIsFree: This pseudo is free.
+  french:
+    canvasManager:
+      titleCanvasManager: Nom du jeu
+      txtBtnCredit: "Cr\xE9dit"
+      txtCreditPopUpCredit: "Cr\xE9diiiiits"
+      txtBtnClosePopUpCredit: Fermer
+      txtBtnQuit: Quitter
+      txtPopUpQuit: Voulez-vous quitter l'application ?
+      txtBtnYesPopUpQuit: Oui
+      txtBtnNoPopUpQuit: Non
+    canvasSignIn:
+      txtTitleCanvasSignIn: Identification
+      txtPHInputPseudoCanvasSignIn: Identifiant ...
+      txtPHInputPasswordCanvasSignIn: Mot de passe ...
+      txtForgotPasswordCanvasSignIn: "Mot de passe oubli\xE9 ?"
+      txtNewAccountCanvasSignIn: Besoin d'un compte ?
+      txtConnectionCanvasSignIn: Connexion
+    canvasSignOn:
+      txtTitleCanvasSignOn: Inscription
+      txtPHInputPseudoCanvasSignOn: Identifiant ...
+      txtPHInputPasswordCanvasSignOn: Mot de passe ...
+      txtPHInputEmailCanvasSignOn: Email ...
+      txtPHInputFirstNameCanvasSignOn: "Pr\xE9nom ..."
+      txtPHInputLastNameCanvasSignOn: Nom ...
+      txtBtnRegisterCanvasSignOn: S'inscrire
+      txtBtnBackCanvasSignOn: Retour
+      txtPopUpRegisterCanvasSignOn: "Votre compte a \xE9t\xE9 cr\xE9\xE9 !"
+      txtBtnPopUpRegisterCanvasSignOn: Identification
+    canvasForgotPassword:
+      txtTitleCanvasForgotPassword: "Veuillez entrer votre email, vous recevrez un
+        mail contenant un code de v\xE9rification."
+      txtPHInputEmailCanvasForgotPassword: Email ...
+      txtBtnSendEmailForgotPassword: Envoyer
+      txtBtnBackCanvasForgotPassword: Retour
+      txtTitlePopUpVerificationCanvasForgotPassword: "Veuillez entrer votre code.\t"
+      txtPHInputCodePopUpVerificationCanvasForgotPassword: Code
+      txtBtnVerifyPopUpVerificationForgotPassword: "V\xE9rifier"
+      txtBtnBackPopUpVerificationCanvasForgotPassword: Retour
+      txtTitlePopUpChangePasswordCanvasForgotPassword: Veuillez entrer votre nouveau
+        mot de passe.
+      txtPHInputNewPasswordPopUpChangePasswordCanvasForgotPassword: Nouveau mot de
+        passe ...
+      txtPHInputConfirmPasswordPopUpChangePasswordCanvasForgotPassword: Confirmez
+        mot de passe ...
+      txtBtnConfirmPopUpChangePasswordForgotPassword: Modifier
+      txtBtnCancelPopUpChangePasswordCanvasForgotPassword: Annuler
+      txtTitlePopUpPasswordChangeCanvasForgotPassword: "Votre mot de passe a \xE9t\xE9
+        chang\xE9. Vous pouvez maintenant vous connecter."
+      txtBtnSignInPopUpPasswordChangeCanvasForgotPassword: Identification
+    message:
+      baseMessage: 
+      cantBeEmpty: "Ce champ ne doit pas \xEAtre vide."
+      needAtLeast: Ce champ doit avoir au moins
+      needMax: Ce champ doit avoir au maximum
+      characters: "caract\xE8res."
+      pseudoAlreadyUse: "Ce pseudo est d\xE9j\xE0 utilis\xE9."
+      emailAlreadyUse: "Cette adresse mail est d\xE9j\xE0 utilis\xE9."
+      invalidEmail: Invalide email.
+      incorrectPseudoOrPassword: Pseudo ou mot de passe incorrect.
+      emailDoesNotExist: Cet email n'existe pas.
+      wrongCode: Mauvaise code.
+      confirmPasswordDifferent: "La confirmation du mot de passe est diff\xE9rente."
+      newPasswordSameThanOld: "Le nouveau mot de passe est le m\xEAme que l'ancien."
+      emailCodeVerificationObjectPasswordForgot: "Vous avez oubli\xE9 votre mot de
+        passe ?"
+      emailCodeVerificationBodyPasswordForgot: 'Votre code est : '
+      pseudoIsFree: Ce pseudo est disponnible.
+  spanish:
+    canvasManager:
+      titleCanvasManager: Nombre del juego
+      txtBtnCredit: "Cr\xE9dito"
+      txtCreditPopUpCredit: "Cr\xE9ditoooooooooooooo"
+      txtBtnClosePopUpCredit: Cerrar
+      txtBtnQuit: Salir
+      txtPopUpQuit: "\xBFQuieres salir de la aplicaci\xF3n?"
+      txtBtnYesPopUpQuit: Si
+      txtBtnNoPopUpQuit: No
+    canvasSignIn:
+      txtTitleCanvasSignIn: "Iniciar sesi\xF3n"
+      txtPHInputPseudoCanvasSignIn: Apodo ...
+      txtPHInputPasswordCanvasSignIn: "Contrase\xF1a ..."
+      txtForgotPasswordCanvasSignIn: "\xBFOlvidaste tu contrase\xF1a?"
+      txtNewAccountCanvasSignIn: "\xBFNecesitas una cuenta?"
+      txtConnectionCanvasSignIn: "Conexi\xF3n"
+    canvasSignOn:
+      txtTitleCanvasSignOn: Registrarse
+      txtPHInputPseudoCanvasSignOn: Seudo ...
+      txtPHInputPasswordCanvasSignOn: "Contrase\xF1a"
+      txtPHInputEmailCanvasSignOn: Email ...
+      txtPHInputFirstNameCanvasSignOn: Primer nombre ...
+      txtPHInputLastNameCanvasSignOn: Apellido
+      txtBtnRegisterCanvasSignOn: Inscribirse
+      txtBtnBackCanvasSignOn: Regreso
+      txtPopUpRegisterCanvasSignOn: Su cuenta ha sido creada!
+      txtBtnPopUpRegisterCanvasSignOn: "Iniciar sesi\xF3n"
+    canvasForgotPassword:
+      txtTitleCanvasForgotPassword: "\rIngrese su correo electr\xF3nico, recibir\xE1
+        un c\xF3digo de verificaci\xF3n."
+      txtPHInputEmailCanvasForgotPassword: Email ...
+      txtBtnSendEmailForgotPassword: Enviar
+      txtBtnBackCanvasForgotPassword: Regresso
+      txtTitlePopUpVerificationCanvasForgotPassword: "\rPor favor ingrese su c\xF3digo."
+      txtPHInputCodePopUpVerificationCanvasForgotPassword: "C\xF3digo ..."
+      txtBtnVerifyPopUpVerificationForgotPassword: Comprobar
+      txtBtnBackPopUpVerificationCanvasForgotPassword: Regresso
+      txtTitlePopUpChangePasswordCanvasForgotPassword: "\rPor favor ingrese su nueva
+        contrase\xF1a."
+      txtPHInputNewPasswordPopUpChangePasswordCanvasForgotPassword: "Nueva contrase\xF1a
+        ..."
+      txtPHInputConfirmPasswordPopUpChangePasswordCanvasForgotPassword: "Confirmar
+        la contrase\xF1a ..."
+      txtBtnConfirmPopUpChangePasswordForgotPassword: Editar
+      txtBtnCancelPopUpChangePasswordCanvasForgotPassword: Anular
+      txtTitlePopUpPasswordChangeCanvasForgotPassword: "\rSu contrase\xF1a ha sido
+        cambiada. Ahora puede iniciar sesi\xF3n."
+      txtBtnSignInPopUpPasswordChangeCanvasForgotPassword: "Iniciar sesi\xF3n"
+    message:
+      baseMessage: 
+      cantBeEmpty: No puede estar vacio.
+      needAtLeast: Necesito al menos
+      needMax: Necesita max
+      characters: caracteres.
+      pseudoAlreadyUse: Pseudo ya uso.
+      emailAlreadyUse: Email ya uso.
+      invalidEmail: "Email inv\xE1lido."
+      incorrectPseudoOrPassword: "Pseudo o contrase\xF1a incorrecta."
+      emailDoesNotExist: Email no existe.
+      wrongCode: Codigo erroneo.
+      confirmPasswordDifferent: "Confirmar contrase\xF1a es diferente."
+      newPasswordSameThanOld: "La nueva contrase\xF1a es la misma que la anterior."
+      emailCodeVerificationObjectPasswordForgot: "\xBFOlvidaste tu contrase\xF1a?"
+      emailCodeVerificationBodyPasswordForgot: "\rTu c\xF3digo es : "
+      pseudoIsFree: "Este apodo est\xE1 disponible."

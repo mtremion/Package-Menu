@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2737596237590182593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2737596237590182592}
+  - component: {fileID: 2737596237590182719}
+  m_Layer: 0
+  m_Name: DesignMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2737596237590182592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2737596237590182593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2737596237590182719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2737596237590182593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70932b47509849b40a4ae78dc3d124cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sndBackground: {fileID: 8300000, guid: 61b85bc9bb384cd44b5a945325fa5ec9, type: 3}
+  sndMouseClickButton: {fileID: 8300000, guid: f71308b4863f01443b2ebc292ca2d7cc, type: 3}
+  sndSwitch: {fileID: 8300000, guid: de2eeba103660e045b9e54d75c815030, type: 3}
+  font: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  colorText: {r: 0, g: 1, b: 0, a: 1}
+  colorTextLink: {r: 1, g: 0.47321707, b: 0, a: 1}
+  colorTextErrorMessage: {r: 1, g: 0, b: 0, a: 1}
+  colorTextValidMessage: {r: 0, g: 1, b: 0, a: 1}
+  colorTextWarningMessage: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorTextPHInput: {r: 1, g: 0.47321707, b: 0, a: 0.5882353}
+  imgBackground: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  imgPopUp: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  imgButton: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  imgMute: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  imgNotMute: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  imgVisible: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  imgNotVisible: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  imgInterogation: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  imgScrollview: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  imgScrollbarScrollview: {fileID: 10911, guid: 0000000000000000f000000000000000,
+    type: 0}
+  imgHandleScrollbarScrollview: {fileID: 10901, guid: 0000000000000000f000000000000000,
+    type: 0}
+  imgDropdown: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  imgArrowDropdown: {fileID: 21300000, guid: 130f660889a70c947bff4c8ba8a2c73e, type: 3}
+  imgBackgroundTemplateDropdown: {fileID: 10913, guid: 0000000000000000f000000000000000,
+    type: 0}
+  imgCheckmarkTemplateDropdown: {fileID: 21300000, guid: f73f38102c749484bbd884d4d8d87440,
+    type: 3}
+  imgScrollbarDropdown: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  imgHandleScrollbarDropdown: {fileID: 10913, guid: 0000000000000000f000000000000000,
+    type: 0}
+  imgInput: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  colorInputBase: {r: 1, g: 1, b: 1, a: 1}
+  colorInputError: {r: 1, g: 0, b: 0, a: 1}
+  colorInputValid: {r: 0, g: 1, b: 0, a: 1}
+  colorInputWarning: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

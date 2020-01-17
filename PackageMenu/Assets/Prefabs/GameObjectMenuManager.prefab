@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3835451350493587804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3835451350493587806}
+  - component: {fileID: 3835451350493587805}
+  m_Layer: 0
+  m_Name: GameObjectMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3835451350493587806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835451350493587804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3835451350493587805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835451350493587804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688ad6ad414d62c4ca7340ea4cacc66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goCanvasManager:
+    goCanvasManager: {fileID: 0}
+    goBackgroundCanvasManager: {fileID: 0}
+    goTxtTitleCanvasManager: {fileID: 0}
+    goBtnMuteCanvasManager: {fileID: 0}
+    goDropdownLanguageCanvasManager: {fileID: 0}
+    goTxtLabelDropDownLanguageCanvasManager: {fileID: 0}
+    goArrowDropDownLanguageCanvasManager: {fileID: 0}
+    goBackgroundTemplateDropDownLanguageCanvasManager: {fileID: 0}
+    goCheckmarkTemplateDropDownLanguageCanvasManager: {fileID: 0}
+    goTxtLabelTemplateDropDownLanguageCanvasManager: {fileID: 0}
+    goScrollbarDropDownLanguageCanvasManager: {fileID: 0}
+    goHandleScrollbarDropDownLanguageCanvasManager: {fileID: 0}
+    goBtnCreditCanvasManager: {fileID: 0}
+    goTxtBtnCreditCanvasManager: {fileID: 0}
+    goPopUpCreditCanvasManager: {fileID: 0}
+    goBackgroundPopUpCreditCanvasManager: {fileID: 0}
+    goScrollviewPopUpCreditCanvasManager: {fileID: 0}
+    goScrollbarVerticalPopUpCreditCanvasManager: {fileID: 0}
+    goHandleSBVPopUpCreditCanvasManager: {fileID: 0}
+    goTxtPopUpCreditCanvasManager: {fileID: 0}
+    goBtnClosePopUpCreditCanvasManager: {fileID: 0}
+    goTxtBtnClosePopUpCreditCanvasManager: {fileID: 0}
+    goBtnQuitCanvasManager: {fileID: 0}
+    goTxtBtnQuitCanvasManager: {fileID: 0}
+    goPopUpQuitCanvasManager: {fileID: 0}
+    goBackgroundPopUpQuitCanvasManager: {fileID: 0}
+    goTxtPopUpQuitCanvasManager: {fileID: 0}
+    goBtnYesPopUpQuitCanvasManager: {fileID: 0}
+    goTxtBtnYesPopUpQuitCanvasManager: {fileID: 0}
+    goBtnNoPopUpQuitCanvasManager: {fileID: 0}
+    goTxtBtnNoPopUpQuitCanvasManager: {fileID: 0}
+  goCanvasSignIn:
+    goCanvasSignIn: {fileID: 0}
+    goBackgroundCanvasSignIn: {fileID: 0}
+    goTxtTitleCanvasSignIn: {fileID: 0}
+    goInputPseudoCanvasSignIn: {fileID: 0}
+    goTxtPHInputPseudoCanvasSignIn: {fileID: 0}
+    goTxtInputPseudoCanvasSignIn: {fileID: 0}
+    goInputPasswordCanvasSignIn: {fileID: 0}
+    goTxtPHInputPasswordCanvasSignIn: {fileID: 0}
+    goTxtInputPasswordCanvasSignIn: {fileID: 0}
+    goTxtInfoConnectionCanvasSignIn: {fileID: 0}
+    goBtnForgotPasswordCanvasSignIn: {fileID: 0}
+    goTxtBtnForgotPasswordCanvasSignIn: {fileID: 0}
+    goBtnNewAccountCanvasSignIn: {fileID: 0}
+    goTxtBtnNewAccountCanvasSignIn: {fileID: 0}
+    goBtnConnectionCanvasSignIn: {fileID: 0}
+    goTxtBtnConnectionCanvasSignIn: {fileID: 0}
+  goCanvasSignOn:
+    goCanvasSignOn: {fileID: 0}
+    goBackgroundCanvasSignOn: {fileID: 0}
+    goTxtTitleCanvasSignOn: {fileID: 0}
+    goInputPseudoCanvasSignOn: {fileID: 0}
+    goTxtPHInputPseudoCanvasSignOn: {fileID: 0}
+    goTxtInputPseudoCanvasSignOn: {fileID: 0}
+    goBtnPseudoExistCanvasSignOn: {fileID: 0}
+    goTxtInfoPseudoCanvasSignOn: {fileID: 0}
+    goInputPasswordCanvasSignOn: {fileID: 0}
+    goTxtPHInputPasswordCanvasSignOn: {fileID: 0}
+    goTxtInputPasswordCanvasSignOn: {fileID: 0}
+    goBtnPasswordVisibleCanvasSignOn: {fileID: 0}
+    goTxtInfoPasswordCanvasSignOn: {fileID: 0}
+    goInputEmailCanvasSignOn: {fileID: 0}
+    goTxtPHInputEmailCanvasSignOn: {fileID: 0}
+    goTxtInputEmailCanvasSignOn: {fileID: 0}
+    goTxtInfoEmailCanvasSignOn: {fileID: 0}
+    goInputFirstNameCanvasSignOn: {fileID: 0}
+    goTxtPHInputFirstNameCanvasSignOn: {fileID: 0}
+    goTxtInputFirstNameCanvasSignOn: {fileID: 0}
+    goTxtInfoFirstNameCanvasSignOn: {fileID: 0}
+    goInputLastNameCanvasSignOn: {fileID: 0}
+    goTxtPHInputLastNameCanvasSignOn: {fileID: 0}
+    goTxtInputLastNameCanvasSignOn: {fileID: 0}
+    goTxtInfoLastNameCanvasSignOn: {fileID: 0}
+    goBtnRegisterCanvasSignOn: {fileID: 0}
+    goTxtBtnRegisterCanvasSignOn: {fileID: 0}
+    goBtnBackCanvasSignOn: {fileID: 0}
+    goTxtBtnBackCanvasSignOn: {fileID: 0}
+    goPopUpRegisterCanvasSignOn: {fileID: 0}
+    goImgPopUpRegisterCanvasSignOn: {fileID: 0}
+    goTxtPopUpRegisterCanvasSignOn: {fileID: 0}
+    goBtnPopUpRegisterCanvasSignOn: {fileID: 0}
+    goTxtBtnPopUpRegisterCanvasSignOn: {fileID: 0}
+  goCanvasForgotPassword:
+    goCanvasForgotPassword: {fileID: 0}
+    goBackgroundForgotPassword: {fileID: 0}
+    goTxtTitleForgotPassword: {fileID: 0}
+    goInputEmailForgotPassword: {fileID: 0}
+    goTxtPHInputEmailForgotPassword: {fileID: 0}
+    goTxtInputEmailForgotPassword: {fileID: 0}
+    goTxtInfoInputEmailForgotPassword: {fileID: 0}
+    goBtnSendForgotPassword: {fileID: 0}
+    goTxtBtnSendForgotPassword: {fileID: 0}
+    goBtnBackForgotPassword: {fileID: 0}
+    goTxtBtnBackForgotPassword: {fileID: 0}
+    goPopUpVerifyForgotPassword: {fileID: 0}
+    goBackgroundPopUpVerification: {fileID: 0}
+    goTxtTitlePopUpVerification: {fileID: 0}
+    goInputCodePopUpVerification: {fileID: 0}
+    goTxtPHInputCodePopUpVerification: {fileID: 0}
+    goTxtInputCodePopUpVerification: {fileID: 0}
+    goTxtInfoInputCodePopUpVerification: {fileID: 0}
+    goBtnVerifyPopUpVerification: {fileID: 0}
+    goTxtBtnVerifyPopUpVerification: {fileID: 0}
+    goBtnBackPopUpVerification: {fileID: 0}
+    goTxtBtnBackPopUpVerification: {fileID: 0}
+    goPopUpChangePasswordForgotPassword: {fileID: 0}
+    goBackgroundPopUpChangePassword: {fileID: 0}
+    goTxtTitlePopUpChangePassword: {fileID: 0}
+    goInputNewPasswordPopUpChangePassword: {fileID: 0}
+    goTxtPHInputNewPasswordPopUpChangePassword: {fileID: 0}
+    goTxtInputNewPasswordPopUpChangePassword: {fileID: 0}
+    goBtnNewPasswordVisibilityPopUpChangePassword: {fileID: 0}
+    goInputConfirmPasswordPopUpChangePassword: {fileID: 0}
+    goTxtPHInputConfirmPasswordPopUpChangePassword: {fileID: 0}
+    goTxtInputConfirmPasswordPopUpChangePassword: {fileID: 0}
+    goBtnConfirmPasswordVisibilityPopUpChangePassword: {fileID: 0}
+    goTxtInfoPasswordPopUpChangePassword: {fileID: 0}
+    goBtnConfirmPopUpChangePassword: {fileID: 0}
+    goTxtBtnConfirmPopUpChangePassword: {fileID: 0}
+    goBtnBackPopUpChangePassword: {fileID: 0}
+    goTxtBtnBackPopUpChangePassword: {fileID: 0}
+    goPopUpPasswordChangeForgotPassword: {fileID: 0}
+    goBackgroundPopUpPasswordChange: {fileID: 0}
+    goTxtTitlePopUpPasswordChange: {fileID: 0}
+    goBtnSignInPopUpChangePassword: {fileID: 0}
+    goTxtBtnSignInPopUpChangePassword: {fileID: 0}
